@@ -85,8 +85,7 @@ export default function useSelect({
             if (!item) {
                 return prevState;
             }
-            const values = getNewValue(item.value, prevState.value);
-            console.log(values);
+            const values = getNewValue(item.value, prevState.value, multiple);
             const newOptions = getOption(values, prevFlat);
 
             return {
