@@ -194,7 +194,9 @@ SelectSearch.defaultProps = {
       // eslint-disable-next-line react/button-has-type
       _react["default"].createElement("button", _extends({
         className: className
-      }, domProps), option.name)
+      }, domProps, {
+        value: option.value
+      }), option.name)
     );
   },
   renderGroupHeader: function renderGroupHeader(name) {
