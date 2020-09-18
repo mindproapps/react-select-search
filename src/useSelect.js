@@ -80,13 +80,13 @@ export default function useSelect({
         setState((prevState) => {
             const { flat: prevFlat, highlighted: prevHighlighted } = prevState;
             // eslint-disable-next-line no-underscore-dangle
-            const item = (id) ? prevFlat.find((i) => i._id === id) : prevFlat[prevHighlighted];
+            const item = (id) ? prevFlat.find((i) => i.value === id) : prevFlat[prevHighlighted];
 
             if (!item) {
                 return prevState;
             }
-
-            const values = getNewValue(item.value, prevState.value, multiple);
+            const values = getNewValue(item.value, prevState.value);
+            console.log(values);
             const newOptions = getOption(values, prevFlat);
 
             return {
