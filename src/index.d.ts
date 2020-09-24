@@ -79,6 +79,7 @@ export type SelectSearchProps = {
     search?:boolean
     disabled?:boolean
     placeholder?:string
+    id?:string
     autoComplete?:'on'|'off'
     autoFocus?:boolean
     fuse?:FuseOption|boolean
@@ -89,7 +90,7 @@ export type SelectSearchProps = {
     renderOption?:(domProps:DomProps, option:SelectedOption, snapshot:OptionSnapshot, className:string) => React.ReactNode
     renderValue?:(valueProps:ValueProps, snapshot:ValueSnapshot, className:string) => React.ReactNode
     renderGroupHeader?:(name:string) => string
-    getOptions?:(query:string) => Promise<SelectedOption>
+    getOptions?: (query:string) => Promise<SelectSearchOption[]>
     ref?:React.Ref<React.Component>
 }
 
