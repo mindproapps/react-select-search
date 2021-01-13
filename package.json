@@ -20,7 +20,7 @@
     "url": "https://github.com/mindproapps/react-select-search.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/mindproapps"
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "react",
