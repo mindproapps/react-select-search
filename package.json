@@ -4,6 +4,9 @@
   "description": "Lightweight select component for React",
   "main": "dist/esm/index.js",
   "types": "src/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "lint": "eslint src --ext .js --ext .jsx",
     "test": "jest",
@@ -18,9 +21,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/mindproapps/react-select-search.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "react",
