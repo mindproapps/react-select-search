@@ -1,11 +1,11 @@
 {
-  "name": "react-select-search",
-  "version": "2.1.1",
+  "name": "@mindproapps/react-select-search",
+  "version": "2.2.1",
   "description": "Lightweight select component for React",
   "main": "dist/esm/index.js",
   "types": "src/index.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/mindproapps"
   },
   "scripts": {
     "lint": "eslint src --ext .js --ext .jsx",
