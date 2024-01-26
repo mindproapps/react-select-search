@@ -1,0 +1,17 @@
+name: react-select-search
+id: ari:cloud:compass:2b99fbf0-9255-4920-bdd7-f06d6b59afe8:component/0fdaeab7-5117-4dbc-b8a9-ada7f2cbbff9/22f5adba-fa44-4573-b1c4-7bef383a3e4e
+description: ⚡️ Lightweight select component for React
+configVersion: 1
+typeId: UI_ELEMENT
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/mindproapps/react-select-search
+relationships:
+  DEPENDS_ON: []
+labels:
+  - language:javascript
+  - source:github
+customFields: null
